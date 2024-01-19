@@ -1,4 +1,4 @@
-#include "INIReader.h"
+#include "../ManiacTrainer/External/INIReader/INIReader.h"
 
 //Dummy Export to add to the Game's IAT (Import Address Table)
 int __declspec(dllexport) DummyFunction() { return 0; }

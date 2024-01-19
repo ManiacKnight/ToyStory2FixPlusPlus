@@ -152,14 +152,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="ini.h" />
-    <ClInclude Include="INIReader.h" />
+    <ClInclude Include="External\INIReader\INIReader.h" />
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp" />
     <ClCompile Include="exports.cpp" />
-    <ClCompile Include="INIReader.cpp" />
+    <ClCompile Include="External\INIReader\INIReader.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>

@@ -1,6 +1,6 @@
 #include <Windows.h>
 #include <iostream>
-#include "INIReader.h"
+#include "../ManiacTrainer/External/INIReader/INIReader.h"
 #include <string>
 
 DWORD WINAPI ManiacTrainer(HMODULE hModule)
