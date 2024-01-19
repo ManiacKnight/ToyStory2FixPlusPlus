@@ -77,7 +77,7 @@ DWORD WINAPI ManiacTrainer(HMODULE hModule)
                 {
                     byte Tokens = ini.GetInteger("TOKENS", (std::string)"Level"+=std::to_string(j), 0);
 
-                    //The game uses the Fibonacci sequence to determine the number of tokens earned by the player
+                    //The game uses a particular number series to determine the amount of tokens earned by the player
                     switch (Tokens)
                     {
                     default:
