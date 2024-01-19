@@ -77,6 +77,7 @@ DWORD WINAPI ManiacTrainer(HMODULE hModule)
                 {
                     byte Tokens = ini.GetInteger("TOKENS", (std::string)"Level"+=std::to_string(j), 0);
 
+                    //The game uses the Fibonacci sequence to determine the number of tokens earned by the player
                     switch (Tokens)
                     {
                     default:
@@ -147,3 +148,37 @@ BOOL APIENTRY DllMain( HMODULE hModule,
     return TRUE;
 }
 
+/*INI FILE CONFIGURATION
+[GENERAL]
+EnableTrainer = 0
+;Use virtual Keybinds like the one set below (F9 KEY)
+SetValueKB = 0x78
+
+[PLAYER]
+Invincible    = 1
+Coins         = 99 ;Max value is 99
+Lives         = 9  ;Max value is 9
+ToysCollected = 5  ;(Sheep, Troopers , etc) Max value is 5
+InfiniteJump  = 1  ;Spam spacebar/jump key
+HighJump      = 1
+JumpKey       = 0x45 ;E key
+
+[TOKENS]
+;Max Value is 5 throughout, Levels with 1 token are the boss stages
+Enable = 0
+Level1 = 5
+Level2 = 5
+Level3 = 1
+Level4 = 5
+Level5 = 5
+Level6 = 1
+Level7 = 5
+Level8 = 5
+Level9 = 1
+Level10 = 5
+Level11 = 5
+Level12 = 1
+Level13 = 5
+Level14 = 5
+Level15 = 1
+*/
