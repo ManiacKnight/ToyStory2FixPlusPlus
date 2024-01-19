@@ -154,12 +154,16 @@
   <ItemGroup>
     <ClInclude Include="ini.h" />
     <ClInclude Include="INIReader.h" />
+    <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp" />
-    <ClCompile Include="ini.c" />
+    <ClCompile Include="exports.cpp" />
     <ClCompile Include="INIReader.cpp" />
     <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ManiacTrainer.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
