@@ -1,4 +1,4 @@
-    # ToyStory2Fix++
+    ToyStory2Fix++
     Copyright (C) 2021  ManiacKnight
 
     This program is free software: you can redistribute it and/or modify
@@ -14,9 +14,9 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-## Other Licenses
+# Other Licenses
 
-#INIReader
+## INIReader
 The "inih" library is distributed under the New BSD license:
 
 Copyright (c) 2009, Ben Hoyt
@@ -44,7 +44,7 @@ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#Toy Story 2 Fix
+## Toy Story 2 Fix
 Copyright (C) 2018 RibShark
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
