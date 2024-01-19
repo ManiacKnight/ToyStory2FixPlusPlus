@@ -18,4 +18,4 @@ Extract the archive and launch Toy2.exe to play the game.
 
 Optionally Setup DXWND to play the game in windowed mode.
 
-**Note: Above is the source code for the Trainer I've mentioned earlier.**
+**Note: Above is the source code for the DLL Trainer only. Everything else has been directly patched into the executable file.**
