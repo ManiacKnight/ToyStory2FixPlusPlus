@@ -8,7 +8,7 @@ Some key points,
 * Patched the DRM check, registry checks and have written a subroutine to write the right directory paths to the proper addresses.
 * Rewrote Game Code to read Data from the Current Active Directory instead of the CD, so you don't have to insert a CD or virtually mount it everytime you want to play the game.
 * Wrote a little trainer in cpp/asm (ManiacTrainer.dll and patches inside game code) which includes some general player stuff and a level unlocker (Edit tokens for each level)
-* Use the Config.ini to change the trainer constants, can be refreshed mid-game by the set key (Trainer is disabled by default).
+* Use Config.ini to change the trainer constants, can be refreshed mid-game by the set key (Trainer is disabled by default).
 * You can use DXWND and the config files I've included to play the game in windowed mode.
 
 ## Download
