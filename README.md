@@ -11,7 +11,7 @@ Some key points,
 * Use Config.ini to change the trainer constants, can be refreshed mid-game by the set key (Trainer is disabled by default).
 * You can use DXWND and the config files I've included to play the game in windowed mode.
 
-## Download
+# Download
 [MEGA Link](https://mega.nz/file/aKJTWYhJ#V8AD8-EzsSY0V0vI79jEliAWnhJmoYAfyhkVlKHa_uA)
 
 Extract the archive and launch Toy2.exe to play the game.
